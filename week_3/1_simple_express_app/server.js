@@ -2,7 +2,7 @@ var express = require("express");
 
 var app = express();
 
-app.use("/ddd", function (req, res) {
+app.use("/", function (req, res) {
     res.send("Hello World");
 });
 
